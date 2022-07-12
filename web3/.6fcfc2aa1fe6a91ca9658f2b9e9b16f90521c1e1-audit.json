@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": ".6fcfc2aa1fe6a91ca9658f2b9e9b16f90521c1e1-audit.json",
+    "files": [
+        {
+            "date": 1644176488082,
+            "name": "nft-processing-2022-02-07-01.log",
+            "hash": "a050a54644066fedc507f06685c812a4"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "contractName": "IjungleRandom",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "_requester",
+                    "type": "address"
+                }
+            ],
+            "name": "requestRandomAnimal",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.3+commit.8d00100c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_requester\",\"type\":\"address\"}],\"name\":\"requestRandomAnimal\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/media/yash/fc51dc5b-56d1-4d01-8310-d7b0048238d51/AJungleNFT/web3/contracts/IJungleRandom.sol\":\"IjungleRandom\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/yash/fc51dc5b-56d1-4d01-8310-d7b0048238d51/AJungleNFT/web3/contracts/IJungleRandom.sol\":{\"keccak256\":\"0x60cdbc5977cba176368e11891f6d9ad133cbcc64f5c435088b9caa5839fc2257\",\"urls\":[\"bzz-raw://180d93aeae113e09cb8a601f0b7fde2d7ee2a73a71c4be3a20a6636a28079dbe\",\"dweb:/ipfs/QmNrsPABowrYYv3jCTS7bwJBXTRjzLewqsr5mJy8nMFEmJ\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50609f8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80634c67c0a514602d575b600080fd5b603b6038366004603d565b50565b005b600060208284031215604d578081fd5b81356001600160a01b03811681146062578182fd5b939250505056fea2646970667358221220dddee562027dfb2532da5035d6e1362c9cdd77ae738810c38c2684dacd3687c864736f6c63430008030033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c80634c67c0a514602d575b600080fd5b603b6038366004603d565b50565b005b600060208284031215604d578081fd5b81356001600160a01b03811681146062578182fd5b939250505056fea2646970667358221220dddee562027dfb2532da5035d6e1362c9cdd77ae738810c38c2684dacd3687c864736f6c63430008030033",
+    "sourceMap": "1:95:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "1:95:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;31:62;;;;;;:::i;:::-;;;;;14:306:1;;126:2;114:9;105:7;101:23;97:32;94:2;;;147:6;139;132:22;94:2;178:23;;-1:-1:-1;;;;;230:31:1;;220:42;;210:2;;281:6;273;266:22;210:2;309:5;84:236;-1:-1:-1;;;84:236:1:o",
+    "sourcePath": "/media/yash/fc51dc5b-56d1-4d01-8310-d7b0048238d51/AJungleNFT/web3/contracts/IJungleRandom.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.3+commit.8d00100c"
+    },
+    "ast": {
+        "absolutePath": "/media/yash/fc51dc5b-56d1-4d01-8310-d7b0048238d51/AJungleNFT/web3/contracts/IJungleRandom.sol",
+        "exportedSymbols": {
+            "IjungleRandom": [
+                7
+            ]
+        },
+        "id": 8,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 7,
+                "linearizedBaseContracts": [
+                    7
+                ],
+                "name": "IjungleRandom",
+                "nameLocation": "10:13:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 5,
+                            "nodeType": "Block",
+                            "src": "89:4:0",
+                            "statements": []
+                        },
+                        "functionSelector": "4c67c0a5",
+                        "id": 6,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "requestRandomAnimal",
+                        "nameLocation": "40:19:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 2,
+                                    "mutability": "mutable",
+                                    "name": "_requester",
+                                    "nameLocation": "68:10:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 6,
+                                    "src": "60:18:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    },
+                                    "typeName": {
+                                        "id": 1,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "60:7:0",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "59:20:0"
+                        },
+                        "returnParameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "89:0:0"
+                        },
+                        "scope": 7,
+                        "src": "31:62:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 8,
+                "src": "1:95:0"
+            }
+        ],
+        "src": "1:95:0"
+    },
+    "functionHashes": {
+        "requestRandomAnimal(address)": "4c67c0a5"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "31800",
+            "executionCost": "81",
+            "totalCost": "31881"
+        },
+        "external": {
+            "requestRandomAnimal(address)": "235"
+        }
+    }
+}
